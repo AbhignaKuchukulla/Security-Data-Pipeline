@@ -1,0 +1,41 @@
+event_id,timestamp,user_id,event_type,status,severity,source_ip
+1001,2025-12-17 08:00:00,alice,Login,Success,High,10.0.0.1
+1002,12/17/2025 08:05:00,bob,log-in,ok,medium,10.0.0.2
+1003,2025-12-17T08:10:00Z,carol,FILE ACCESS,FAILED,Low,172.16.0.5
+1004,2025/12/17 08:15:00,dave,File-Delete,"denied ",CRIT,192.168.1.10
+1005,"Dec 17 2025 08:20:00",,login,success,info," 10.0.0.3 "
+1006,17-12-2025 08:25:00,erin,Password_Reset,Passed,WARNING,
+1007,2025-12-17 08:30:00,frank,"login ",,high ,invalid_ip
+1007,2025-12-17 08:30:00,frank,"login ",,high ,invalid_ip
+1008,2025-12-17 08:35:00,george,log out,success,medium,fe80::1
+1009,2025-12-17 08:40:00,alice,FILE-ACCESS,ERROR,Medium,10.0.0.1
+1010,2025-12-17 08:45:00,bob,password reset,Success,info,10.0.0.2
+1011,invalid,carol,file_access,success,low,172.16.0.5
+1012,2025-12-17 09:00:00,,,,,
+1013,2025-12-17 09:10:00,heidi,log-in,failed,medium,10.0.0.9
+1014,2025-12-17 09:15:00,ivan,login,success,informational,10.0.0.10
+1015,2025-12-17 09:20:00,judy,file-delete,deny,critical,10.0.0.11
+1016,2025-12-17 09:25:00,alice,FILE ACCESS,ok,High,10.0.0.1
+1017,2025-12-17 09:26:00,alice,FILE ACCESS,ok,High,10.0.0.1
+1018,2025-12-17 09:50:00,alice,logout,success,low,10.0.0.1
+1019,2025-12-17 10:05:00,mallory,log-in,success,high,10.0.0.12
+1020,2025-12-17 10:06:00,mallory,file_access,error,med,10.0.0.12
+1021,2025-12-17 10:07:00,mallory,file_access,error,medium,10.0.0.12
+1022,2025-12-17 10:08:00,mallory,log_out,succeeded,info,10.0.0.12
+1023,2025-12-17 10:10:00,nina,login,failure,high,
+1024,2025-12-17 10:11:00,nina,file-access,FAILURE,HIGH,10.0.0.13
+1025,2025-12-17 10:12:00,oscar,login,, ,10.0.0.14
+1026,2025-12-17 10:13:00,oscar,login,passed,warn,10.0.0.14
+1027,2025-12-17 10:14:00,peggy,file delete,denied,warning,10.0.0.15
+1028,2025-12-17 10:15:00,peggy,file delete,denied,severe,10.0.0.15
+1029,2025-12-17 10:16:00,quentin,log-in,, ,10.0.0.16
+1030,2025-12-17 10:17:00,quentin,log-out,, ,10.0.0.16
+1031,2025-12-17 10:18:00,ruth,file_access,allowed,low,10.0.0.20
+1032,2025-12-17 10:19:00,steve,file_access,blocked,high,10.0.0.21
+1033,2025-12-17 10:25:00,,password_reset,ok,critical,10.0.0.22
+1034,2025-12-17 10:26:00,trent,password_reset,ok,crit,10.0.0.23
+1035,2025-12-17 10:27:00,alice,login,success,high,10.0.0.1
+1036,2025-12-17 10:28:00,alice,file_access,success,info,10.0.0.1
+1037,2025-12-17 10:29:00,alice,logout,success,low,10.0.0.1
+1038,,bob,login,success,medium,10.0.0.2
+,2025-12-17 10:30:00,eve,login,success,medium,10.0.0.30
